@@ -80,6 +80,22 @@
       border-radius: 15px;
     }
 
+    a.play-link {
+      display: block;
+      margin: 10px 0;
+      padding: 10px;
+      background: rgba(255,255,255,0.2);
+      border-radius: 10px;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+
+    a.play-link:hover {
+      background: rgba(255,255,255,0.35);
+      color: #ffcc70;
+    }
+
     footer {
       background: rgba(0,0,0,0.3);
       text-align: center;
@@ -90,18 +106,19 @@
 </head>
 <body>
   <header>
-    <h1>🏫 Our Class</h1>
+    <h1>🏫 Our Amazing Class</h1>
     <nav>
       <a href="#home">Home</a>
       <a href="#homework">Homework</a>
       <a href="#gallery">Gallery</a>
+      <a href="#plays">Plays</a>
       <a href="#about">About</a>
     </nav>
   </header>
 
   <section id="home">
     <h2>Welcome to Our Class Website!</h2>
-    <p>Here you’ll find our latest homework, photos, and class updates.</p>
+    <p>Here you’ll find our latest homework, photos, plays, and class updates.</p>
   </section>
 
   <section id="homework">
@@ -117,7 +134,7 @@
       <div class="card"><h3>Robotics</h3><p>Homework.</p></div>
       <div class="card"><h3>عربي</h3><p>Homework.</p></div>
       <div class="card"><h3>History</h3><p>Homework.</p></div>
-      <div class="card"><h3>Civisme</h3><p>Homeworks.</p></div>
+      <div class="card"><h3>Civisme</h3><p>Homework.</p></div>
       <div class="card"><h3>Geography</h3><p>Homework.</p></div>
     </div>
   </section>
@@ -131,9 +148,17 @@
     </div>
   </section>
 
+  <section id="plays">
+    <h2>🎭 Our Class Plays</h2>
+    <p>Click the links below to watch our performances:</p>
+    <a href="https://www.youtube.com/watch?v=example1" target="_blank" class="play-link">Play 1: The School Adventure</a>
+    <a href="https://www.youtube.com/watch?v=example2" target="_blank" class="play-link">Play 2: Science Fair Drama</a>
+    <a href="https://www.youtube.com/watch?v=example3" target="_blank" class="play-link">Play 3: History Reenactment</a>
+  </section>
+
   <section id="about">
     <h2>👥 About Our Class</h2>
-    <p>We’re a group of creative and curious students who love learning new things. Our teacher's inspire us every day to do our best and have fun while learning!</p>
+    <p>We’re a group of creative and curious students who love learning new things. Our teacher inspires us every day to do our best and have fun while learning!</p>
   </section>
 
   <footer>
@@ -141,3 +166,4 @@
   </footer>
 </body>
 </html>
+
